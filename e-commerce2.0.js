@@ -536,7 +536,7 @@ if (checkoutButton) {
 
             // Numéro WhatsApp de Jennifer Store
             const whatsappNumber =
-                "2250576293783";
+                "2250714005285";
 
 
             const whatsappURL =
