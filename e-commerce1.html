@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <metdteruura charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="e-commerce2.0.css">
+
+    <title>e-commerce</title>
+
+    
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img class="lo" src="Éclat Pudique, élégance dorée.png" alt="logo Awa"> 
+            
+        </div>
+
+        <nav class="desktop-nav">
+            <a  href="#accueil">Accueil</a>
+            <a href="#categories">Catégories</a>
+            <a href="#promotion">Promotions</a>
+            <a href="#contact">Contact</a>
+            <a href="#boutique">Boutique</a>
+        </nav>
+
+        <div class="header-action">
+      
+            <button class="icon-btn" id="openCart" type="button">
+                <img src="panier.jpeg" alt="panier">
+                <span id="cartcount">
+                    <strong>0</strong>
+                </span>
+            </button>
+
+            <button class="hamburger" type="button">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+        <nav class="mobile-menu" id="mobileMenu">
+            <a href="#accueil">Accueil</a>
+            <a href="#categories">Catégories</a>
+            <a href="#promotion">Promotions</a>
+            <a href="#contact">Contact</a>
+            <a href="#boutique">Boutique</a>
+        </nav>
+
+        <section class="hero" id="accueil">
+            <div class="hero-content">
+                <span>NOUVELLE COLLECTION</span>
+
+                    <h1>La pudeur <br>
+                    <span> Ton éclat éternel!</span>
+                    </h1>
+
+                    <p>Découvez votre selection de vêtement musulman</p>
+                    <br>
+
+                    <div class="hero-buttons">
+                        <a href="#boutique" class="btn primary-btn">Decouvrez la Boutique
+                            <i class="fa-solid fa-arrow-rigth"></i>
+                        </a>
+                        <a href="#categories" class="btn secondary-btn">
+                            Voir les catégories
+                        </a>
+                    </div>
+            </div>
+        </section>
+        
+        <section class="section-title" id="categories">
+
+            <div class="section-title">
+                <span>EXPLORER</span>
+                <h2>Nos catégories</h2>
+                <p>Tous ce qu'il vous faut réléver votre style.</p>
+            </div>
+
+            <div class="categories">
+
+                <div class="category-card">
+                    <div class="category-icon">
+                        <img src="voilechapeau.jpeg" alt="voile1">
+                    </div><br>
+                    <h3>Voile </h3>
+
+                    <p></p>
+                    <a href="#boutique">Explorer</a>
+                </div>
+
+                <div class="category-card">
+                    <div class="category-icon">
+                        <img src="mouslime.jpeg" alt="mouslime">
+                    </div><br>
+                    <h3>Mouslime </h3>
+
+                    <p> importer.</p>
+                    <a href="#boutique">Explorer</a>
+                </div>
+
+                <div class="category-card">
+                    <div class="category-icon">
+                        <img src="manches.jpeg" alt="manches">
+                    </div><br>
+                    <h3>Manches</h3>
+
+                    <p></p>
+                    <a href="#boutique">Explorer</a>
+                </div>
+
+                <div class="category-card">
+                    <div class="category-icon">
+                        <img src="voileleopard.jpeg" alt="voile4">
+                    </div><br>
+                    <h3>Voile Leopard</h3>
+
+                    <p>Premieum</p>
+                    <a href="#boutique">Explorer</a>
+                </div>
+
+            </div>
+        
+        </section>
+
+        <section class="promotion" id="promotion">
+
+            <div class="promotion-content">
+                <span>OFFRE SPECIALE</span>
+                <h2>aucune <strong>réduction</strong>  pour l'instant</h2>
+                
+                <p>Profitez de nos offres exclusives pendant une durée limitée.</p>
+                <br>
+                <a href="#boutique" class="btn white-btn">Profiter de L'offre</a>
+            </div>
+
+        </section>
+
+        <section class="produits-section" id="boutique">
+
+            <div class="section-heading">
+                <div>
+                    <span>NOTRE SÉLECTION</span>
+                    <h2>Boutique</h2>
+                </div>
+                <a href="https://wa.me/+2250714005285?text=Bonjours%20je%20suis%20intéressé%20par%20vos%20produits%20"
+                    class="view-all"> voir <i class="fa-solid fa-arrow-rigth">+</i>
+                </a>
+
+            </div>
+
+            <div class="products-grid" id="productGrid">
+
+                <article class="product-cart">
+                    <div class="product-image">
+                        <span></span>
+
+                        <div class="fake-image">
+                            <img src="mouslime.jpeg" alt="1">
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <span class="product-category"></span>
+                        <h3>Mouslime</h3>
+
+                        <div class="rating">
+                            Article importer
+                        </div>
+                        <div class="price">
+                            <span class="old-price"></span>
+                            <strong>2 500 FCFA</strong>
+                        </div>
+
+                        <button class="add-cart" data-product="Mouslime">
+                           <img src="panier.jpeg" alt="panier"> Ajouter au Panier
+                        </button>
+                    </div>
+                </article>
+
+                <article class="product-cart">
+                    <div class="product-image">
+
+                        <div class="fake-image">
+                            <img src="voileleopard.jpeg" alt="2">
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <span class="product-category">Voiles</span>
+                        <h3>Voile Leopard</h3>
+
+                        <div class="rating">
+                            Premieum
+                        </div>
+                        <div class="price">
+                            
+                            <strong>3 000 FCFA</strong>
+                        </div>
+
+                        <button class="add-cart" data-product="Voile Leopard">
+                           <img src="panier.jpeg" alt="panier"> Ajouter au Panier
+                        </button>
+                    </div>
+                </article>
+
+                <article class="product-cart">
+                    <div class="product-image">
+
+                        <div class="fake-image">
+                            <img src="voileAsma.jpeg" alt="3">
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <span class="product-category">Voiles</span>
+                        <h3>Voile Asma</h3>
+
+                        <div class="rating">
+                
+                        </div>
+                        <div class="price">
+                        
+                            <strong>2 500 FCFA</strong>
+                        </div>
+
+                        <button class="add-cart" data-product="Voile Asma">
+                           <img src="panier.jpeg" alt="panier"> Ajouter au Panier
+                        </button>
+                    </div>
+                </article>
+
+                <article class="product-cart">
+                    <div class="product-image">
+
+                        <div class="fake-image">
+                            <img src="voile2en1.jpeg" alt="4">
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <span class="product-category">Voiles</span>
+                        <h3>Voile 2 en 1</h3>
+
+                        <div class="rating">
+                            
+                        </div>
+                        <div class="price">
+                            
+                            <strong>3 000 FCFA</strong>
+                        </div>
+
+                        <button class="add-cart" data-product="Voile 2 en 1">
+                            <img src="panier.jpeg" alt="panier"> Ajouter au Panier
+                        </button>
+                    </div>
+                </article>
+
+                <article class="product-cart">
+                    <div class="product-image">
+
+                        <div class="fake-image">
+                            <img src="voileKepi.jpeg" alt="5">
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <span class="product-category">Voiles</span>
+                        <h3>Voiel Képi</h3>
+
+                        <div class="rating">
+                            
+                        </div>
+                        <div class="price">
+                            
+                            <strong>4 000 FCFA</strong>
+                        </div>
+
+                        <button class="add-cart" data-product="Voile Képi">
+                           <img src="panier.jpeg" alt="panier"> Ajouter au Panier
+                        </button>
+                    </div>
+                </article>
+
+                <article class="product-cart">
+                    <div class="product-image">
+
+                        <div class="fake-image">
+                            <img src="voile2.jpeg" alt="6">
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <span class="product-category">Voiles</span>
+                        <h3>Voile 2 en 2</h3>
+
+                        <div class="rating">
+                            
+                        </div>
+                        <div class="price">
+                
+                            <strong>3 000 FCFA</strong>
+                        </div>
+
+                        <button class="add-cart" data-product="Voile 2 en 2">
+                            <img src="panier.jpeg" alt="panier"> Ajouter au Panier
+                        </button>
+                    </div>
+                </article>
+
+                <article class="product-cart">
+                    <div class="product-image">
+     
+                        <div class="fake-image">
+                            <img src="pashmina-couleurU.jpeg" alt="7">
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <span class="product-category">Voiles</span>
+                        <h3>pashmina couleur Unique</h3>
+
+                        <div class="rating">
+                        
+                        </div>
+                        <div class="price">
+                        
+                            <strong>2 000 FCFA</strong>
+                        </div>
+
+                        <button class="add-cart" data-product="pashmina couleur Unique">
+                            <img src="panier.jpeg" alt="panier"> Ajouter au Panier
+                        </button>
+                    </div>
+                </article>
+
+                <article class="product-cart">
+                    <div class="product-image">
+                    
+                        <div class="fake-image">
+                            <img src="pashminaIMpoter.jpeg" alt="8">
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <span class="product-category">Voiles</span>
+                        <h3>pashmina</h3>
+
+                        <div class="rating">
+                            Article importer
+                        </div>
+                        <div class="price">
+                            
+                            <strong>3 000 FCFA</strong>
+                        </div>
+
+                        <button class="add-cart" data-product="Pashmina importer">
+                                <img src="panier.jpeg" alt="panier"> Ajouter au Panier
+                        </button>
+                    </div>
+                </article>
+
+                <article class="product-cart">
+                    <div class="product-image">
+
+                        <div class="fake-image">
+                            <img src="MINIVOILE.jpeg" alt="9">
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <span class="product-category">Voiles</span>
+                        <h3>Mini Voiles </h3>
+
+                        <div class="rating">
+                        Avec Pression
+                        </div>
+                        <div class="price">
+                        
+                            <strong>2 500 FCFA</strong>
+                        </div>
+
+                        <button class="add-cart" data-product="Mini Voile ">
+                            <img src="panier.jpeg" alt="panier"> Ajouter au Panier
+                        </button>
+                    </div>
+                </article>
+
+                <article class="product-cart">
+                    <div class="product-image">
+
+                        <div class="fake-image">
+                            <img src="jerserLOCAL.jpeg" alt="10">
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <span class="product-category">Voiles</span>
+                        <h3>jerser Local</h3>
+
+                        <div class="rating">
+                            
+                        </div>
+                        <div class="price">
+                            
+                            <strong>2 000 FCFA</strong>
+                        </div>
+
+                        <button class="add-cart" data-product="Jersey Local">
+                            <img src="panier.jpeg" alt="panier"> Ajouter au Panier
+                        </button>
+                    </div>
+                </article>
+
+                <article class="product-cart">
+                    <div class="product-image">
+
+                        <div class="fake-image">
+                            <img src="manches.jpeg" alt="11">
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <span class="product-category">manches</span>
+                        <h3>Manches</h3>
+
+                        <div class="rating">
+                            exite en plusieu couleur
+                        </div>
+                        <div class="price">
+                            
+                            <strong>1 000 FCFA</strong>
+                        </div>
+
+                        <button class="add-cart" data-product="Manches">
+                            <img src="panier.jpeg" alt="panier"> Ajouter au Panier
+                        </button>
+                    </div>
+                </article>
+
+                <article class="product-cart">
+                    <div class="product-image">
+
+                        <div class="fake-image">
+                            <img src="voilechapeau.jpeg" alt="12">
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <span class="product-category">Voiles</span>
+                        <h3>Voiles Chapeau Colier</h3>
+
+                        <div class="rating">
+                            
+                        </div>
+                        <div class="price">
+                            
+                            <strong>2 500 FCFA</strong>
+                        </div>
+
+                        <button class="add-cart" data-product="Voile Chapeau Colier">
+                            <img src="panier.jpeg" alt="panier"> Ajouter au Panier
+                        </button>
+                    </div>
+                </article>
+
+                <article class="product-cart">
+                    <div class="product-image">
+
+                        <div class="fake-image">
+                            <img src="jersey.jpeg" alt="12">
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <span class="product-category">Voiles</span>
+                        <h3>jersey</h3>
+
+                        <div class="rating">
+                            À deux ton
+                        </div>
+                        <div class="price">
+                            
+                            <strong>3 000 FCFA</strong>
+                        </div>
+
+                        <button class="add-cart" data-product="Jersey à deux ton">
+                            <img src="panier.jpeg" alt="panier"> Ajouter au Panier
+                        </button>
+                    </div>
+                </article>
+
+                <article class="product-cart">
+                    <div class="product-image">
+
+                        <div class="fake-image">
+                            <img src="voilemultiC.jpeg" alt="12">
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <span class="product-category">Voiles</span>
+                        <h3>Voiles Multicolore</h3>
+
+                        <div class="rating">
+                            
+                        </div>
+                        <div class="price">
+                            
+                            <strong>2 500 FCFA</strong>
+                        </div>
+
+                        <button class="add-cart" data-product="Voile Muliticolore">
+                            <img src="panier.jpeg" alt="panier"> Ajouter au Panier
+                        </button>
+                    </div>
+                </article>
+
+                <article class="product-cart">
+                    <div class="product-image">
+
+                        <div class="fake-image">
+                            <img src="epingleF.jpeg" alt="12">
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <span class="product-category">Épingles</span>
+                        <h3>Épingle</h3>
+
+                        <div class="rating">
+                          
+                        </div>
+                        <div class="price">
+                        
+                            <strong>à partis de 500 FCFA</strong>
+                        </div>
+
+                        <button class="add-cart" data-product="Épingle">
+                            <img src="panier.jpeg" alt="panier"> Ajouter au Panier
+                        </button>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+        <br>
+    
+    <footer id="contact">
+        <div class="footer-content">
+
+            <div class="footer-brand">
+                <div class="logo">
+                    <img class="log" src="logoawaN.jpeg" alt="logo">
+                </div>
+
+                <p>Soyez frais et éllegant </p>
+
+                <div class="socials">
+                    <a href="https://www.tiktok.com/@awasoum176" target="_blank"><img src="tiktok logo.jpeg" alt="logo"></a>
+                    <a href="https://wa.me/+2250714005285"><img src="whatsapp logo 2.jpeg" alt="logo"></a>
+                </div>
+
+            </div>
+
+            <div class="footer-column">
+                <h3>Boutique</h3>
+                    <a href="#accueil">Accueil</a>
+                    <a href="#categories">Catégories</a>
+                    <a href="#promotion">Promotions</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#boutique">Boutique</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>Information</h3>
+                <p>Pour en savoir plus sur la conception de ce site
+                    cliquer ici --> <a href="http://www.maewens.com">Maewen's</a>
+                </p>
+            </div>
+           
+                    
+            
+
+        </div>
+        <br>
+            <hr>
+        <div class="copyrigth">2026 Ma boutique _ tous droits recervés.</div>
+
+    </footer>
+
+
+
+    <div class="cart-panel" id="cartPanel">
+
+            <div class="cart-header">
+                <h2>Mon Panier</h2>
+
+                <button id="closecart" type="button"
+                        aria-label="ferme le panier">
+                    <i class="fa-solid fa-xmark">X</i>
+                </button>
+            </div>
+
+
+            <div class="cart-items" id="cartItems">
+                <p class="empty-cart">Votre panier est vide.</p>
+            </div>
+
+        <div class="cart-footer">
+
+            <div class="cart-total">
+                Total :
+                <strong id="cartTotal">0 FCFA</strong>
+            </div>
+        
+                <button class="checkout" id="checkoutBtn" type="button">
+                    <img class="ima" src="whatsapp1.jpeg" alt="logo w">
+                    Commander
+                </button>
+
+        </div>
+
+    </div>
+
+    <script src="e-commerce2.0.js"></script>
+</body>
+</html>
